@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:none;
+    background-image: url('https://th.bing.com/th/id/R.eb513551a480899bccab61d5a2cf4cf2?rik=cXh9MeBXFF%2f0pQ&pid=ImgRaw&r=0');
+    overflow: hidden;
+
+    
+}
+.container {
+    position: relative;
+    bottom:800px;
+    display:flex;
+    border-width: 400px;
+    border-radius: 50px;
+    border-color: blue;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .heading3 {
+    position: relative;
+    top:120px;
+    font-size: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:greenyellow;
+}
+
+.container .heading6 {
+    position: relative;
+    bottom:250px;
+    font-size: 90px;
+    font-family: Times New Roman;
+    color: red;
+}
+.container .input1 {
+    width:1300px;
+    height:200px;
+    position: relative;
+    bottom:60px;
+    font-size: 40px;
+    border-radius: 40px;
+    background-color: white;
+    border-color: red;
+    border-width: 4px;
+    margin-bottom: 50px;
+}
+.input1::placeholder{
+    font-size: 40px;
+}
+.input2::placeholder{
+    font-size: 40px;
+}
+.container .input2 {
+    width:1300px;
+    height:200px;
+    position: relative;
+    bottom:60px;
+    font-size: 40px;
+    border-radius: 40px;
+    background-color: white;
+    border-width: 4px;
+    border-color: red;
+    margin-bottom: 50px;
+
+}
+.container .headingsix {
+    font-size: 70px;
+    position: relative;
+    bottom:60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:aquamarine;
+}
+h2 {
+    color: red;
+}
+.signinbutton {
+   
+    font-size: 40px;
+}
+.signinbutton {
+    background-color: purple;
+    color:white;
+    border-radius: 20px;
+    width:600px;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes changeColor {
+    0%{
+        background-color: red;
+    }
+    25% {
+        background-color: blue;
+    }
+    50%{
+        background-color: orange;
+    }
+    75%{
+        background-color: white;
+    }
+    100%{
+        background-color: blueviolet;
+    }
+}
+.signinbutton:hover {
+    background-color: lawngreen;
+    cursor: pointer;
+    color: black;
+    animation: bounce 1s infinite;
+}
+.container {
+    scale: 0.3;
+}
+.heading2 {
+    position: relative;
+    bottom: 1700px;
+}
